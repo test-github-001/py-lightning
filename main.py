@@ -5,7 +5,6 @@ from math import sin, pi
 
 import pygame as PG # Импортируем pygame в переменную PG
 PG.init() # инициализируем pygame (без этого не работают шрифты и некоторый функционал)
-PG.mixer.init() # инициализируем PyGame.mixer для работы с фоновой музыкой и звуками
 
 # размеры игрового окна
 SCREEN_WIDTH = 800
